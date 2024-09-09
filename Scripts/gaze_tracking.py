@@ -28,7 +28,7 @@ class GazeModel(nn.Module):
 
 # Load the pretrained gaze model
 model = GazeModel()
-model_path = r'C:/Users/prash/MyProjects/gitrepos/eye-model/venv/models/gaze_model_pytorch_vgg16_prl_mpii_allsubjects4.model'  # Corrected path format
+model_path = r'venv/models/gaze_model_pytorch_vgg16_prl_mpii_allsubjects4.model'  # Corrected path format
 
 # Load the state dictionary with adjustments if needed
 try:
