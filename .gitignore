@@ -1,0 +1,29 @@
+venv\models\gaze_model_pytorch_vgg16_prl_mpii_allsubjects4.model
+# Ignore virtual environments
+venv/
+Lib/
+pyvenv.cfg
+share/
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore executables and scripts
+*.exe
+*.bat
+*.ps1
+
+# Ignore model files
+*.model
+models/
+
+# Ignore CSV and PNG files if not needed
+*.csv
+*.png
+
+venv\Scripts\activate
+
+# Ignore virtual environment files
+venv/
+Scripts/
